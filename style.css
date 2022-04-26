@@ -30,3 +30,7 @@ left: 50%;
 margin-right: -50%;
 transform: translate(-50%, -50%) }
 
+li {
+    background-color: bisque;
+    border: 10px solid white;
+}
