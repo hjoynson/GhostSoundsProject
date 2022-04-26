@@ -31,6 +31,21 @@ margin-right: -50%;
 transform: translate(-50%, -50%) }
 
 li {
-    background-color: bisque;
-    border: 10px solid white;
+background-color: bisque;
+border: 10px solid white;
+-moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 }
+
+.ghostbutton1 {
+text-align: center
+}
+
+.ghostbutton2 {
+    text-align: center
+    }
+
+ .ghostbutton3 {
+    text-align: center
+        }
