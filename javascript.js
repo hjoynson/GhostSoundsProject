@@ -9,3 +9,10 @@ audio.play();}
 function play3() {
 var audio = document.getElementById("audio2");
 audio.play();}
+
+
+document.addEventListener('keydown', function(e) {
+    if (e.keyCode) {
+      document.getElementById('audio').play();
+    }
+  });
